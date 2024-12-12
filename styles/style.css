@@ -160,6 +160,7 @@
   text-shadow: 4px 4px 0 var(--decoration-color);
   text-align: left;
   line-height: 82.5%;
+  margin-left: -20px;
 }
 
 @media (width <= 375px) {
@@ -175,24 +176,21 @@
   color: var(--subtitle-color);
   background-color: var(--accent-color);
   font-size: 18px;
-  max-width: 491px;
   line-height: 1.2;
-  font-style: bold;
 }
 
 @media (width >= 768px) {
   .header__subtitle {
-    width: 48.5%;
+    max-width: 491px;
     align-self: center;
     justify-self: end;
-    margin-block-start: 8vh;
   }
 }
 
 .content {
   padding: 0 20px;
   display: grid;
-  gap: 80px;
+  gap: 85px;
 }
 
 @media (width <= 375px) {
@@ -207,7 +205,7 @@
 }
 .section_type_text {
   grid-template-columns: repeat(3, 3fr);
-  gap: 20px;
+  column-gap: 20px;
 }
 
 @media (width <= 375px) {
@@ -233,21 +231,24 @@
   font-size: 18px;
   font-family: inherit;
   grid-row: span 2;
+
 }
 
-h3, h4, p:last-child  {
+/*h3, h4, p:last-child  {
   margin-bottom: 10px;
-}
+}*/
 
 .title-decoration {
   color: var(--subtitle-color);
   background-color: var(--accent-color);
+  margin-bottom: 10px;
 }
 
 .section__content {
   color: var(--text-color);
   font-size: 18px;
   gap: 20px;
+  line-height: 23.4px; /*150%*/
 }
 
 .section__how {
@@ -277,6 +278,7 @@ h3, h4, p:last-child  {
 }
 .section__what_type_wide {
   grid-column: 1 / -1;
+  max-width: 314px;
 }
 
 .section-image__wrapper {
