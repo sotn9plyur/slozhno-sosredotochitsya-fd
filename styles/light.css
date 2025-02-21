@@ -10,15 +10,30 @@
   --section-title-color: #353430;
   --button-color: #353430;
   --decoration-color: #ff0070;
+<<<<<<< HEAD
   --decoration-display: none;
+=======
+  --quotes: #353430;
+>>>>>>> d38142d (done)
   --background-image: url(../images/cover-image-light.png);
   --border-color: rgb(50 49 45 / 0.4);
 }
 
+<<<<<<< HEAD
 
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #FFF1F7;
+=======
+.theme_light .rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #FFEEF6;
+    --rec-color: transparent;
+>>>>>>> d38142d (done)
     --text-color: #353430;
     --text-title: #353430;
     --subtitle-color: #353430;
@@ -27,7 +42,19 @@
     --decoration-color: #353430;
     --section-title-color: #353430;
     --button-color: #353430;
+<<<<<<< HEAD
+=======
+    --decoration-color: #ff0070;
+    --quotes: #353430;
+>>>>>>> d38142d (done)
     --background-image: url(../images/cover-image-light.png);
     --border-color: rgb(50 49 45 / 0.4);
   }
 }
+<<<<<<< HEAD
+=======
+
+.rec {
+  display: none;
+}
+>>>>>>> d38142d (done)

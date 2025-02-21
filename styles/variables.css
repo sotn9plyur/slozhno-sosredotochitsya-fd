@@ -11,4 +11,16 @@
   --button-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
   --border-color: rgb(255 0 112 / 0.4);
+<<<<<<< HEAD
 }
+=======
+  --quotes: #FF0070;
+  --gap: 20px;
+}
+
+@media (width <= 520px) {
+  :root {
+    --gap: 10px; 
+  }
+}
+>>>>>>> d38142d (done)

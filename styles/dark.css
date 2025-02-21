@@ -9,11 +9,28 @@
   --decoration-color: #ff0070;
   --section-title-color: #ff0070;
   --button-color: #ff0070;
+<<<<<<< HEAD
+=======
+  --quotes: #FF0070;
+>>>>>>> d38142d (done)
   --background-image: url(../images/cover-image-dark.png);
   --border-color: rgb(255 0 112 / 0.4);
 }
 
+<<<<<<< HEAD
 .theme_light .rec__decoration,
 .theme_auto .rec__decoration {
   display: none;
 }
+=======
+.theme_dark .rec {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme_auto .rec {
+    display: block;
+  }
+}
+
+>>>>>>> d38142d (done)
